@@ -1,3 +1,4 @@
+[TOC]
 # 分割线
 
 ---
@@ -53,6 +54,9 @@ print("Hello, World!")
 # 注释
 快捷键 Ctrl + \ 将当前行注释
 
+# 居中
+加center
+
 # 数学公式支持
 行内公式: 
 
@@ -97,6 +101,7 @@ HyperSnips 自动扩展：
 
 4. 空格
 数学公式中的 空格和换行 都会在编译时 被忽略，想要实现「空格」的效果，需要用特别的命令
+
          紧贴 $a\!b$
 
          没有空格 $ab$
@@ -119,6 +124,7 @@ HyperSnips 自动扩展：
 
 积分 $\displaystyle \int_0^1x{\rm d}x  \quad  \iint_{D_{xy}}  \quad  \iiint_{\Omega_{xyz}}$
     HyperSnips 自动扩展：
+
          sum  =>  \sum_{...}
 
          prod  =>  \prod_{<n=1>}^{<\infty>} ...
@@ -247,3 +253,4 @@ x^n+y^n=z^n
 $$
 
 由公式 $(1.2)$ 可得到结论
+[TOC]
